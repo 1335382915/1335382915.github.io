@@ -158,8 +158,8 @@ npm link
 配置项位于`config.js`中，目前仅支持配置环境和通用代码块：
 {% highlight ruby %}
 module.exports = {
-	isDevelopment: true,
-	commonModule: ["./js/common.js"]
+    isDevelopment: true,
+    commonModule: ["./js/common.js"]
 }
 {% endhighlight %}
 

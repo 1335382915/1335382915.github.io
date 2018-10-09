@@ -1,0 +1,44 @@
+.main-header,
+.page-image,
+.page-content,
+.about-container,
+.post-card-box,
+.blog-tags {
+  animation-duration: 0.7s;
+  animation-fill-mode: both;
+  animation-name: fadeInDown;
+}
+
+.main-header,
+.page-image {
+  animation-delay: 0.5s;
+}
+
+.page-content,
+.about-container,
+.post-card-box, 
+.blog-tags {
+  animation-delay: 0.75s;
+}
+
+@-webkit-keyframes fadeInDown {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

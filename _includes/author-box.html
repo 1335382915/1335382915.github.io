@@ -1,0 +1,17 @@
+<section class="author-box">
+  <img style="width:100px;height:100px;" src="{{site.baseurl}}/assets/img/{% if site.author-pic %}{{site.author-pic}}{% endif %}" alt="{{site.author}}" class="author-img">
+  <div class="author-desc">
+    <h2>{{site.author}}</h2>
+    <p>{{site.about-author}}</p>
+    <ul>
+      <li class="email"><a href="mailto:{{site.email}}"><i class="fa fa-envelope-o"></i></a></li>
+      <li class="weibo"><a href="{{site.weibo}}" target="_blank"><i class="fa fa-weibo"></i></a></li>
+      <li class="weixin"><a href="javasvript:void(0)" data-remodal-target="modal"><i class="fa fa-weixin"></i></a></li>
+      <li class="website"><a href="{{site.website}}"><i class="fa fa-globe"></i></a></li>
+      <li class="github"><a href="{{site.github}}" target="_blank"><i class="fa fa-github"></i></a></li>
+    </ul>
+  </div>
+  <div class="remodal" data-remodal-id="modal">
+    <img style="max-width:100%;height:auto;" src="{{site.baseurl}}/assets/img/weixin.jpg" alt="">
+  </div>
+</section>

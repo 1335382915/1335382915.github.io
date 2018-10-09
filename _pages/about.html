@@ -1,0 +1,33 @@
+---
+layout: home-page
+title: About
+permalink: /about/
+---
+<div class="small-wrapper">
+  <div class="about-container">
+    <section class="about-header">
+      <div class="author-image-container">
+        <img src="{{site.baseurl}}/assets/img/{% if site.author-pic %}{{site.author-pic}}{% endif %}" alt="{{site.author}}">
+      </div>
+      <!-- <p class="subtitle">{{site.about-author}}</p> -->
+      <p class="subtitle"><b>Hi</b>，这里是秦川的个人网站，欢迎你的到来！</p>
+      <br/>
+      <p class="subtitle">任职前端开发工程师，<b>Javascript</b>狂热爱好者，关注移动端开发，热爱开源。</p>
+      <br/>
+      <p class="subtitle">一个爱旅行，爱摄影，爱跳舞，爱健身，爱音乐的假文艺青年。一个爱折腾爱疯闹的嘻哈人。</p>
+      <br/>
+    </section>
+    <section class="about-body">
+      <ul class="contact-list">
+        <li class="email"><a href="mailto:{{site.email}}"><i class="fa fa-envelope-o"></i></a></li>
+        <li class="weibo"><a href="{{site.weibo}}" target="_blank"><i class="fa fa-weibo"></i></a></li>
+        <li class="weixin"><a href="javasvript:void(0)" data-remodal-target="modal"><i class="fa fa-weixin"></i></a></li>
+        <li class="website"><a href="{{site.website}}"><i class="fa fa-globe"></i></a></li>
+        <li class="github"><a href="{{site.github}}" target="_blank"><i class="fa fa-github"></i></a></li>
+      </ul>
+    </section> <!-- End About Body-->
+  </div> <!-- End About Container -->
+  <div class="remodal" data-remodal-id="modal">
+    <img style="max-width:100%;height:auto;" src="{{site.baseurl}}/assets/img/weixin.jpg" alt="">
+  </div>
+</div> <!-- End Small Wrapper -->

@@ -1,0 +1,46 @@
+title: Mescal Chuan
+email: 1335382915@qq.com
+description: > # this means to ignore newlines until "baseurl:"
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
+permalink: ':title/'
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+
+# Author settings
+author: Mescal Chuan # add your name
+author-pic: mescalchuan.jpg
+about-author: 爱跳舞，爱摄影，爱健身，爱音乐的前端爱好者。
+
+# Contact links
+email: 1335382915@qq.com
+weibo: https://weibo.com/6454388854/profile?topnav=1&wvr=6
+website: https://1335382915.github.io
+github: https://github.com/1335382915 # Add your Github handle
+
+# Newsletter
+mailchimp: # Add your MailChimp form identifier.
+
+# Disqus
+discus_identifier: mr-brown # Add your discus identifier
+
+# Tracker
+analytics: # Google Analytics
+
+# Paginate
+paginate: 6
+paginate_path: /page:num/
+#paginatepath: ['life/page/:num','technology/page/:num']
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+
+plugins:
+  - jekyll-paginate
+  - jekyll-feed
+  - jekyll-sitemap
+
+include: [_pages]
+exclude: ["node_modules", "gulpfile.js", "package.json", "yarn.lock", "package-lock.json", "assets/css/sass/"]

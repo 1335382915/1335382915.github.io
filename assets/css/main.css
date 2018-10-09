@@ -195,7 +195,7 @@ sup {
 audio,
 video {
   display: inline-block;
-  width: 100%;
+  width: 50%;
 }
 
 /**

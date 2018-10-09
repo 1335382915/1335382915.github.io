@@ -3,7 +3,7 @@ layout: post
 title: 优雅地配置Atom
 date: 2018-01-27 13:32:20 +0300
 description: 
-img: post-6.jpg # Add image post (optional)
+img: 5.jpg # Add image post (optional)
 tags: [博客, 技术博客, 工具]
 categories: [技术博客]
 ascription: technology

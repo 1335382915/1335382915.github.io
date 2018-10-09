@@ -3,7 +3,7 @@ layout: post
 title: Less初学
 date: 2016-02-23 13:32:20 +0300
 description: 
-img: post-6.jpg # Add image post (optional)
+img: 16.jpg # Add image post (optional)
 tags: [博客, 技术博客, css]
 categories: [技术博客]
 ascription: technology

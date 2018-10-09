@@ -3,7 +3,7 @@ layout: post
 title: 拇指琴之往后余生
 date: 2018-07-17 13:32:20 +0300
 description: 
-img: post-6.jpg # Add image post (optional)
+img: wanghouyusheng.jpg # Add image post (optional)
 tags: [博客, 记录生活, 拇指琴]
 ascription: life
 author: # Add name author (optional)

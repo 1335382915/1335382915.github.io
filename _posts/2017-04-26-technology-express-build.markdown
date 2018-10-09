@@ -3,7 +3,7 @@ layout: post
 title: 基于Express搭建前后端分离的开发环境
 date: 2017-04-26 13:32:20 +0300
 description: 
-img: post-6.jpg # Add image post (optional)
+img: 9.jpg # Add image post (optional)
 tags: [博客, 技术博客, node]
 categories: [技术博客]
 ascription: technology

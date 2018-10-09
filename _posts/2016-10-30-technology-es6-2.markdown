@@ -3,7 +3,7 @@ layout: post
 title: ES6学习笔记（二）
 date: 2016-10-30 13:32:20 +0300
 description: 
-img: post-6.jpg # Add image post (optional)
+img: 11.jpg # Add image post (optional)
 tags: [博客, 技术博客, javascript]
 categories: [技术博客]
 ascription: technology

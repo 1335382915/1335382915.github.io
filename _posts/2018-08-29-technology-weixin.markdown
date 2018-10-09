@@ -3,7 +3,7 @@ layout: post
 title:  初探微信小程序之小川天气
 date:   2018-08-29 13:32:20 +0300
 description: 
-img: post-2.jpg # Add image post (optional)
+img: xiaochuan_weather.jpg # Add image post (optional)
 tags: [博客, 技术博客, 小程序]
 categories: [技术博客]
 ascription: technology

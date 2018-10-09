@@ -3,7 +3,7 @@ layout: post
 title:  基于React和Node实现一个食物热量参考应用
 date:   2018-07-31 13:32:20 +0300
 description: 
-img: post-3.jpg # Add image post (optional)
+img: node_health.jpg # Add image post (optional)
 tags: [博客, 技术博客, react, node]
 categories: [技术博客]
 ascription: technology

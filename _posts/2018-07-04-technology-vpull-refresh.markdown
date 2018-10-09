@@ -3,7 +3,7 @@ layout: post
 title: 基于vue封装的轻量级下拉刷新组件
 date: 2018-07-04 13:32:20 +0300
 description: 
-img: post-4.jpg # Add image post (optional)
+img: 2.jpg # Add image post (optional)
 tags: [博客, 技术博客, vue]
 categories: [技术博客]
 ascription: technology

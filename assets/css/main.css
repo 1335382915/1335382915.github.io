@@ -436,6 +436,33 @@ template {
   display: none;
 }
 
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  display: -webkit-flex;
+}
+
+.justify-content-center {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-justify-content: center;
+}
+
+.flex-wrap {
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-flex-wrap: wrap;
+}
+
+.flex-grow-0 {
+  -webkit-box-flex: 0;
+      -ms-flex-positive: 0;
+          flex-grow: 0;
+  -webkit-flex-grow: 0;
+}
+
 /* = = = = = = = = = = Main Styles = = = = = = = = = = */
 *, *::after, *::before {
   -webkit-box-sizing: border-box;

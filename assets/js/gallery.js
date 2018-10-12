@@ -1,25 +1,47 @@
  // build items array
  var items = [{
-    title: "天津之旅",
+    title: "日落",
     photos: [{
-        src: '/assets/img/weixin.jpg',
-        w: 678,
-        h: 896,
-        scale: 3
+        src: '/assets/img/gallery/riluo/1.jpg',
+        w: 1440,
+        h: 1080,
+        scale: 6
+    }, {
+        src: '/assets/img/gallery/riluo/4.jpg',
+        w: 1440,
+        h: 1080,
+        scale: 6
+    }, {
+        src: '/assets/img/gallery/riluo/5.jpg',
+        w: 1440,
+        h: 1080,
+        scale: 6
     }]
 }, {
-    title: "杂七杂八",
+    title: "天津",
     photos: [{
-        src: "/assets/img/kanong.jpg",
-        w: 957,
-        h: 720,
-        scale: 4
-    },
-    {
-        src: '/assets/img/mescalchuan.jpg',
-        w: 803,
-        h: 803,
-        scale: 4
+        src: "/assets/img/gallery/tianjin/1.jpg",
+        w: 1440,
+        h: 1080,
+        scale: 6
+    }, {
+        src: "/assets/img/gallery/tianjin/3.jpg",
+        w: 1440,
+        h: 1080,
+        scale: 6
+    }]
+},  {
+    title: "其他",
+    photos: [{
+        src: "/assets/img/gallery/other/2.jpg",
+        w: 1440,
+        h: 1080,
+        scale: 6
+    }, {
+        src: "/assets/img/gallery/other/1.jpg",
+        w: 1440,
+        h: 1080,
+        scale: 6
     }]
 }];
 var openPhotoSwipe = function(lIndex, pIndex) {
@@ -43,10 +65,11 @@ var openPhotoSwipe = function(lIndex, pIndex) {
 var $base = $(".about-container");
 
 items.map(function(item, lIndex) {
-    var $div = $("<div class='flex flex-wrap flex-grow-0 justify-content-center'></div>");
-    $base.append($("<h2 style='margin-bottom:30px;'>"+item.title+"</h2>"));
+    var $div = $("<div class='flex flex-wrap flex-grow-0'></div>");
+    $base.append($("<h2 style='margin:30px 0;'>"+item.title+"</h2>"));
+    var styleStr = "background-size:cover;margin:10px 0 0 10px;display:inline-block;border-radius:10px;-webkit-border-radius:10px;cursor:pointer;box-shadow:0 2px 12px 0 rgb(0,0,0)"
     item.photos.map(function(photo, pIndex) {
-        var $img = $("<div style='width:"+photo.w / photo.scale+"px;height:"+photo.h / photo.scale+"px;background:url("+photo.src+");background-size:cover;display:inline-block'/>");
+        var $img = $("<div style='width:"+photo.w / photo.scale+"px;height:"+photo.h / photo.scale+"px;background:url("+photo.src+");"+styleStr+"'/>");
         $img.on("click", function() {
             openPhotoSwipe(lIndex, pIndex)
         });

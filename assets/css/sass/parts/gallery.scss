@@ -17,3 +17,16 @@
   flex-grow: 0;
   -webkit-flex-grow: 0;
 }
+
+.gallery-img {
+  margin: 10px 0 0 10px;
+  display: inline-block;
+  border-radius: 10px;
+  cursor: pointer;
+  box-shadow:0;
+  transition:box-shadow 0.2s linear 0s
+}
+
+.gallery-img:hover {
+  box-shadow:0 2px 12px 0 rgb(0,0,0);
+}

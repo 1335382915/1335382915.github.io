@@ -54,8 +54,9 @@ var openPhotoSwipe = function(lIndex, pIndex) {
         focus: false,
         index: pIndex,
         showAnimationDuration: 0,
-        hideAnimationDuration: 0
-        
+        hideAnimationDuration: 0,
+        closeOnScroll: false,
+        shareEl: false
     };
     
     var gallery = new PhotoSwipe( pswpElement, PhotoSwipeUI_Default, items[lIndex].photos, options);
@@ -67,9 +68,8 @@ var $base = $(".about-container");
 items.map(function(item, lIndex) {
     var $div = $("<div class='flex flex-wrap flex-grow-0'></div>");
     $base.append($("<h2 style='margin:30px 0;'>"+item.title+"</h2>"));
-    var styleStr = "background-size:cover;margin:10px 0 0 10px;display:inline-block;border-radius:10px;-webkit-border-radius:10px;cursor:pointer;box-shadow:0 2px 12px 0 rgb(0,0,0)"
     item.photos.map(function(photo, pIndex) {
-        var $img = $("<div style='width:"+photo.w / photo.scale+"px;height:"+photo.h / photo.scale+"px;background:url("+photo.src+");"+styleStr+"'/>");
+        var $img = $("<div class='gallery-img' style='width:"+photo.w / photo.scale+"px;height:"+photo.h / photo.scale+"px;background:url("+photo.src+");background-size:cover;'/>");
         $img.on("click", function() {
             openPhotoSwipe(lIndex, pIndex)
         });

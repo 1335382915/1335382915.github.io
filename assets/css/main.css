@@ -463,6 +463,25 @@ template {
   -webkit-flex-grow: 0;
 }
 
+.gallery-img {
+  margin: 10px 0 0 10px;
+  display: inline-block;
+  -webkit-border-radius: 10px;
+          border-radius: 10px;
+  cursor: pointer;
+  -webkit-box-shadow: 0;
+          box-shadow: 0;
+  -webkit-transition: -webkit-box-shadow 0.2s linear 0s;
+  transition: -webkit-box-shadow 0.2s linear 0s;
+  transition: box-shadow 0.2s linear 0s;
+  transition: box-shadow 0.2s linear 0s, -webkit-box-shadow 0.2s linear 0s;
+}
+
+.gallery-img:hover {
+  -webkit-box-shadow: 0 2px 12px 0 black;
+          box-shadow: 0 2px 12px 0 black;
+}
+
 /* = = = = = = = = = = Main Styles = = = = = = = = = = */
 *, *::after, *::before {
   -webkit-box-sizing: border-box;

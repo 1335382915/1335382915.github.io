@@ -1,0 +1,10 @@
+@font-face
+{
+    font-family: Ionicons;
+    src: url('fonts/Ionicons.ttf');
+    font-style: italic;
+}
+
+.intro-text {
+    margin: 0 !important;
+}

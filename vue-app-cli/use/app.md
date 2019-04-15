@@ -1,4 +1,4 @@
-#### 七、 开发原生 app
+#### 八、 开发原生 app
 `vue-app-cli`可以很容易地集成到`hbuilder`中，只需要以下几步：
 1. 在`hbuilder`中创建`移动app`项目，建议选择`mui项目`模板，我们为该项目命名为`vueApp2`
 ![](https://upload-images.jianshu.io/upload_images/1495096-4d884b66a656140b.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)

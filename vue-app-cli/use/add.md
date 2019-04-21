@@ -20,3 +20,7 @@
 │   ├── home.html
 │   └── user.html
 ```
+
+#### 1.2.0版本新增
+
+通过`vue-app add <pageName> --vuerouter`或者简写`vue-app add <pageName> -r`指令，可以创建包含`vue-router`的单页应用页面。

@@ -4,6 +4,8 @@
 module.exports = {
 	isDevelopment: true,
 	commonModule: ["./js/common.js"],
-	remUnit: 37.5
+	remUnit: 37.5,
+	//开启vconsole，详见“真机调试”
+	vconsole: true
 }
 ```

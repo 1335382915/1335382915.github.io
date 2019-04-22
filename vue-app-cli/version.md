@@ -1,8 +1,12 @@
 ### 版本记录
 
+#### 1.3.0 [20190422]
+
+新增`vconsole`调试功能，可以在手机上体验`chrome`的调试功能
+
 #### 1.2.0 [20190422]
 
-新增`vue-app add --vuerouter`指令，可以创建含有vue-router的模板页面
+新增`vue-app add --vuerouter`指令，可以创建含有`vue-router`的模板页面
 
 #### 1.1.0 [20190421]
 

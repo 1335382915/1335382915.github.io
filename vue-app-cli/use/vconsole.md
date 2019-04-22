@@ -14,3 +14,15 @@
 
 针对以上问题，`vue-app-cli`在**1.3.0**版本中引入了[vconsole](https://github.com/1335382915/vConsole/blob/dev/README_CN.md)，能够像体验`chrome dev tool`般调试真机。该功能默认是开启的，位于`config.js`中，请在发布时将其关闭。
 
+```
+console.log({
+  type: 'object',
+  arr: [0,1,2,3,4,5],
+  func: function() {
+    return this
+  }
+})
+```
+
+![](https://upload-images.jianshu.io/upload_images/1495096-f31711aa6cf005d8.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![](https://upload-images.jianshu.io/upload_images/1495096-b09aa21ce2ef0666.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)

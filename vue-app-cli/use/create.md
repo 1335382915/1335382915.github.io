@@ -8,7 +8,8 @@
 
 进入到`vueApp`文件夹下，安装依赖`cd vueApp && npm i`，之后使用`npm start`启动项目，双击`pages/home.html`
 
-![vue-app-cli](https://upload-images.jianshu.io/upload_images/1495096-a98647dfbb9fff11.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+<!--![vue-app-cli](https://upload-images.jianshu.io/upload_images/1495096-a98647dfbb9fff11.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)-->
+![vue-app-cli](https://upload-images.jianshu.io/upload_images/1495096-9a04da83b48c0b21.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 
 下面我们来看一下目录结构

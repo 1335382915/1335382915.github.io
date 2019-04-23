@@ -1,4 +1,4 @@
-#### 六、 Px2rem
+#### 七、 Px2rem
 `vue-app-cli`会自动完成px至rem的转换工作，比如：
 ```
 <template>

@@ -4,6 +4,7 @@
     - [创建工程](use/create.md)
     - [添加页面](use/add.md)
     - [本地开发](use/development.md)
+    - [Devtool](use/devtool.md)
     - [发布](use/build.md)
     - [其他指令](use/directive.md)
     - [px2rem](use/px2rem.md)
